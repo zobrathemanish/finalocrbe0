@@ -1,0 +1,402 @@
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:8090/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 184-568-449
+202.51.91.220 - - [14/Sep/2018 17:52:48] "[37mGET / HTTP/1.1[0m" 200 -
+18.191.156.234 - - [14/Sep/2018 17:53:15] "[37mPOST /upload HTTP/1.1[0m" 200 -
+202.51.91.220 - - [14/Sep/2018 17:53:52] "[37mGET / HTTP/1.1[0m" 200 -
+202.51.91.220 - - [14/Sep/2018 17:54:45] "[37mGET / HTTP/1.1[0m" 200 -
+202.51.91.220 - - [14/Sep/2018 17:56:04] "[37mGET / HTTP/1.1[0m" 200 -
+54.92.200.197 - - [14/Sep/2018 18:01:12] "[37mGET / HTTP/1.1[0m" 200 -
+66.249.81.19 - - [14/Sep/2018 18:09:44] "[37mGET / HTTP/1.1[0m" 200 -
+66.249.81.21 - - [14/Sep/2018 18:09:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+139.162.87.250 - - [14/Sep/2018 21:35:40] "[37mGET / HTTP/1.1[0m" 200 -
+110.44.127.195 - - [15/Sep/2018 04:04:11] "[37mGET / HTTP/1.1[0m" 200 -
+196.52.43.99 - - [15/Sep/2018 05:15:06] "[37mGET / HTTP/1.0[0m" 200 -
+18.191.156.234 - - [15/Sep/2018 06:06:53] "[37mPOST /upload HTTP/1.1[0m" 200 -
+18.191.156.234 - - [15/Sep/2018 06:14:54] "[37mPOST /upload HTTP/1.1[0m" 200 -
+110.44.127.195 - - [15/Sep/2018 06:44:15] "[37mGET / HTTP/1.1[0m" 200 -
+110.44.127.195 - - [15/Sep/2018 06:44:17] "[37mGET / HTTP/1.1[0m" 200 -
+66.220.149.32 - - [15/Sep/2018 06:44:25] "[37mGET / HTTP/1.1[0m" 200 -
+110.44.127.195 - - [15/Sep/2018 06:44:29] "[37mGET / HTTP/1.1[0m" 200 -
+202.51.88.30 - - [15/Sep/2018 06:45:36] "[37mGET / HTTP/1.1[0m" 200 -
+202.51.88.30 - - [15/Sep/2018 06:45:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+66.220.149.23 - - [15/Sep/2018 06:58:31] "[37mGET / HTTP/1.1[0m" 200 -
+18.191.156.234 - - [15/Sep/2018 07:00:02] "[37mPOST /upload HTTP/1.1[0m" 200 -
+202.51.88.30 - - [15/Sep/2018 07:04:19] "[37mGET / HTTP/1.1[0m" 200 -
+202.51.88.30 - - [15/Sep/2018 07:04:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+202.51.88.30 - - [15/Sep/2018 07:34:08] "[37mGET / HTTP/1.1[0m" 200 -
+202.51.88.30 - - [15/Sep/2018 07:34:17] "[37mPOST /upload HTTP/1.1[0m" 200 -
+202.51.88.30 - - [15/Sep/2018 07:57:26] "[37mPOST /upload HTTP/1.1[0m" 200 -
+202.51.88.30 - - [15/Sep/2018 08:07:38] "[37mPOST /upload HTTP/1.1[0m" 200 -
+202.51.88.30 - - [15/Sep/2018 08:07:57] "[37mPOST /upload HTTP/1.1[0m" 200 -
+66.220.149.28 - - [15/Sep/2018 08:16:42] "[37mGET / HTTP/1.1[0m" 200 -
+43.245.86.112 - - [15/Sep/2018 08:17:03] "[37mGET / HTTP/1.1[0m" 200 -
+43.245.86.112 - - [15/Sep/2018 08:17:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+43.245.86.112 - - [15/Sep/2018 08:17:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+43.245.86.112 - - [15/Sep/2018 08:27:53] "[37mGET / HTTP/1.1[0m" 200 -
+43.245.86.112 - - [15/Sep/2018 09:36:19] "[37mGET / HTTP/1.1[0m" 200 -
+43.245.86.112 - - [15/Sep/2018 09:36:32] "[37mGET / HTTP/1.1[0m" 200 -
+31.13.127.12 - - [15/Sep/2018 09:48:45] "[37mGET / HTTP/1.1[0m" 200 -
+69.171.251.35 - - [15/Sep/2018 09:49:02] "[37mGET / HTTP/1.1[0m" 200 -
+43.245.86.112 - - [15/Sep/2018 10:08:50] "[37mGET / HTTP/1.1[0m" 200 -
+49.126.83.33 - - [15/Sep/2018 10:09:24] "[37mGET / HTTP/1.1[0m" 200 -
+66.249.81.19 - - [15/Sep/2018 10:09:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+49.126.83.33 - - [15/Sep/2018 10:09:37] "[1m[35mPOST /upload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+66.249.81.17 - - [15/Sep/2018 10:09:38] "[37mGET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+66.249.81.17 - - [15/Sep/2018 10:09:38] "[37mGET /upload?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+66.249.81.21 - - [15/Sep/2018 10:09:38] "[37mGET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+66.249.81.17 - - [15/Sep/2018 10:09:40] "[37mGET /upload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+66.249.81.21 - - [15/Sep/2018 10:09:40] "[37mGET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+66.249.81.19 - - [15/Sep/2018 10:09:41] "[37mGET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+163.53.26.247 - - [15/Sep/2018 10:14:35] "[37mPOST /upload HTTP/1.1[0m" 200 -
+31.13.115.14 - - [15/Sep/2018 10:14:50] "[37mGET / HTTP/1.1[0m" 200 -
+163.53.26.247 - - [15/Sep/2018 10:18:11] "[37mPOST /upload HTTP/1.1[0m" 200 -
+[[[u'Development', u'\u092c\u093f\u0915\u093e\u0938', None, None, 3]], None, u'ne']
+[[[u'Development must be in Nepal', u'\u0935\u093f\u0915\u093e\u0938 \u0928\u0947\u092a\u093e\u0932\u092e\u093e \u0939\u0941\u0928 \u092a\u0930\u094d\u091b', None, None, 3]], None, u'ne']
+[[[u'Development must be in Nepal', u'\u0935\u093f\u0915\u093e\u0938 \u0928\u0947\u092a\u093e\u0932\u092e\u093e \u0939\u0941\u0928 \u092a\u0930\u094d\u091b', None, None, 3]], None, u'ne']
+[[[u'P yeah hey ', u'\u092a\u093f, \u0939\u0948     \u0939\u0941 \u0939\u0947.', None, None, 3], [u'Curse, 3021. $: 80091) .121 56 p 001. ', u'\u0936\u094d\u0930\u093e\u092a, 3021. $:\u096e0091)\u096512\u0967 \u096b6\u092a001.', None, None, 3], [u'07 7 \xabQueen onaka 0/1" 280: 1976 1,840 1 p 0 .: 075 12916: 1002 15, 2018 [281 9.9 .08 130 .: 25 300] 8 9: 1284910178 100 (61111119001 10 04 AA 1414 0000 175 160 9 7 ', u'07 \u096d \xab\u0930\u093e\u0928\u0940 \u094b\u0923\u09150/ \u0967 \u201c 280: 1976 1,\u096e\u096a\u0966 1\u092a0.: 075 12916: 1002 15, 2018 [\u0968\u096e\u0967\u096f\u0964\u096f\u0965\u0966\u096e 1\u0969\u0966.: 25 \u0969\u0966\u0966]\u096e\u096f: 1\u0968\u096e\u096a910178 100 (61111119001 10 \u091b 04 \u090f\u090f 14\u0967\u096a 0000 175 160\u096f7', None, None, 0], [u'15 10 491109 (6 49 1015. 1819 169110, 16510611 01 300019-06, 188001709100 190 08 9 1 1 9 1 80 0 \xa3 1167 2051507 95 9 1190161191105 18901101 51102 2,141 01, 2018. 1116 1717310 p 0 \xf1 phapa 0 Eta 01 9067 La 001110011 0 99 080 60 1688) 8 501001 ', u'15 1\u0966 \u096a91109(6 \u096a9 1015. 1819 169110, 16510611 01 300019-06, 1\u096e8001709100 190 \u0966\u096e\u096f\u0967 1\u096f1 8\u0966 0\xa31167 2051507 95 9 1190161191105 1\u096e901101 51102 2,14\u0967 01, 2018. 1116 1717310\u092a0\u093e \u092b\u092a\u093e0\u090f\u091f\u093e 01 9067 \u0932\u093e\u096601110011 \u0966\u096f\u096f\u0966\u096e\u0966 \u096c\u0966 1\u096c\u096e\u096e) \u096e 501001', None, None, 0], [u'01 9 0 190 101 7 99 1 16 910 4 9 5000] 001011102 9 1190 50030 9 0 60 01101911% 01058 burst $ 01100] 5102 591 15 2018 411 08 002010% 083 190 70 9) 10104500 00 [0011, 0403 found] Fita 7075 910 1906 10 1006 118 5000]. ', u'\u0966\u0967\u096f\u0966 190 101 \u096d\u096f\u096f\u0967 16 910 \u096a\u096f 5000] 001011102\u096f 1190 \u096b\u0966\u0966\u0969\u0966\u096f\u0966 \u096c\u0966 \u09661101911% \u09661\u0966\u096b\u096e \u092b\u091f $01100] 5102 \u096b9\u0967 15, 2018. 411 \u0966\u096e 002010%\u0966\u096e\u0969 190 \u096d\u0966\u096f) 10104500 \u09660[ 0\u096611 \u0966\u096a\u0966\u0969 \u092a\u093e\u090f] \u092b\u093f\u091f\u093e \u096d075 910 1906 10 1006 1\u0967\u096e 5000].', None, None, 0], [u'Pat 100 [01111194001 0005 101 1 99 0 9 12 2 \u20ac 101709102 900 (69011118 516115) Tranna 19919/971 51105004. Shor .30120 ..:', u'\u092a\u091f 100 [01111194001 0005 101 1\u096f\u096f\u0966 07 12 2\u20ac101709102 900 (69011118 516115.  \u0924\u094d\u0923\u094d\u0930\u094d\u0923\u094d\u0923\u093e 19919/971 51105004.  \u0936\u0930\u0965\u09690120\u0964.:', None, None, 3]], None, u'ne']
+[[[u'Development must be in Nepal', u'\u0935\u093f\u0915\u093e\u0938 \u0928\u0947\u092a\u093e\u0932\u092e\u093e \u0939\u0941\u0928 \u092a\u0930\u094d\u091b', None, None, 3]], None, u'ne']
+[[[u'Development must be in Nepal', u'\u0935\u093f\u0915\u093e\u0938 \u0928\u0947\u092a\u093e\u0932\u092e\u093e \u0939\u0941\u0928 \u092a\u0930\u094d\u091b', None, None, 3]], None, u'ne']
+[[[u'Development must be in Nepal', u'\u0935\u093f\u0915\u093e\u0938 \u0928\u0947\u092a\u093e\u0932\u092e\u093e \u0939\u0941\u0928 \u092a\u0930\u094d\u091b', None, None, 3]], None, u'ne']
+[[[u'Development must be in Nepal', u'\u0935\u093f\u0915\u093e\u0938 \u0928\u0947\u092a\u093e\u0932\u092e\u093e \u0939\u0941\u0928 \u092a\u0930\u094d\u091b', None, None, 3]], None, u'ne']
+[[[u'Development', u'\u092c\u093f\u0915\u093e\u0938', None, None, 3]], None, u'ne']
+[[[u'Development', u'\u092c\u093f\u0915\u093e\u0938', None, None, 3]], None, u'ne']
+[[[u'Development must be in Nepal', u'\u0935\u093f\u0915\u093e\u0938 \u0928\u0947\u092a\u093e\u0932\u092e\u093e \u0939\u0941\u0928 \u092a\u0930\u094d\u091b'43.245.86.112 - - [15/Sep/2018 10:18:24] "[37mPOST /upload HTTP/1.1[0m" 200 -
+163.53.26.247 - - [15/Sep/2018 10:24:52] "[37mPOST /upload HTTP/1.1[0m" 200 -
+43.245.86.112 - - [15/Sep/2018 10:40:22] "[37mPOST /upload HTTP/1.1[0m" 200 -
+163.53.26.247 - - [15/Sep/2018 10:40:36] "[1m[35mPOST /upload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/devnagariOcrAndTranslate/app.py", line 41, in upload
+    parsed_json = json.loads(result.text)
+  File "/usr/lib/python2.7/json/__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+43.245.86.112 - - [15/Sep/2018 10:42:20] "[37mPOST /upload HTTP/1.1[0m" 200 -
+43.245.86.112 - - [15/Sep/2018 10:46:05] "[37mPOST /upload HTTP/1.1[0m" 200 -
+43.245.86.112 - - [15/Sep/2018 11:32:27] "[37mPOST /upload HTTP/1.1[0m" 200 -
+43.245.86.112 - - [15/Sep/2018 11:33:16] "[37mPOST /upload HTTP/1.1[0m" 200 -
+43.245.86.112 - - [15/Sep/2018 11:34:26] "[37mPOST /upload HTTP/1.1[0m" 200 -
+202.51.85.252 - - [15/Sep/2018 11:54:45] "[1m[35mPOST /upload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/devnagariOcrAndTranslate/app.py", line 41, in upload
+    parsed_json = json.loads(result.text)
+  File "/usr/lib/python2.7/json/__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+43.245.86.112 - - [15/Sep/2018 12:38:25] "[37mPOST /upload HTTP/1.1[0m" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 324, in handle_one_request
+    self.raw_requestline = self.rfile.readline()
+IOError: [Errno 104] Connection reset by peer
+43.245.86.112 - - [15/Sep/2018 14:15:19] "[37mPOST /upload HTTP/1.1[0m" 200 -
+43.245.86.112 - - [15/Sep/2018 14:35:11] "[37mPOST /upload HTTP/1.1[0m" 200 -
+202.51.85.252 - - [15/Sep/2018 14:38:46] "[37mPOST /upload HTTP/1.1[0m" 200 -
+110.34.30.12 - - [15/Sep/2018 14:59:53] "[37mPOST /upload HTTP/1.1[0m" 200 -
+202.51.88.30 - - [15/Sep/2018 15:01:58] "[37mPOST /upload HTTP/1.1[0m" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 324, in handle_one_request
+    self.raw_requestline = self.rfile.readline()
+IOError: [Errno 104] Connection reset by peer
+ * Detected change in '/home/ubuntu/devnagariOcrAndTranslate/app.py', reloading
+, None, None, 3]], None, u'ne']
+[[[u'', u'']], None, u'ne']
+[[[u'Development must be in Nepal', u'\u0935\u093f\u0915\u093e\u0938 \u0928\u0947\u092a\u093e\u0932\u092e\u093e \u0939\u0941\u0928 \u092a\u0930\u094d\u091b', None, None, 3]], None, u'ne']
+[[[u'Development must be in Nepal', u'\u0935\u093f\u0915\u093e\u0938 \u0928\u0947\u092a\u093e\u0932\u092e\u093e \u0939\u0941\u0928 \u092a\u0930\u094d\u091b', None, None, 3]], None, u'ne']
+[[[u'Development must be in Nepal', u'\u0935\u093f\u0915\u093e\u0938 \u0928\u0947\u092a\u093e\u0932\u092e\u093e \u0939\u0941\u0928 \u092a\u0930\u094d\u091b', None, None, 3]], None, u'ne']
+[[[u"8504 Everyone enjoys the pleasure of being disappointed, I'm sorry, from 00 00. ", u'8\u096b\u0966\u096a \u0938\u092c\u0948 \u091c\u0928\u093e\u0932\u093e\u0907 \u0939\u093e\u0938\u0940 \u0916\u0941\u0938\u0940 \u0930\u092e\u093e\u0909\u0926\u0948 \u0917\u0930\u094d\u0928\u0941 \u0915\u0939\u093f\u0932\u0948 \u0926\u0941\u0916\u0940 \u0928\u0939\u0941\u0928\u0941 \u092e \u091a\u093e\u0907 \u0917\u092f \u092f\u094b 00 \u092c\u093e\u091f  \u0938\u093e 91\u0965\u0965', None, None, 3], [u'Laughs You Lose To Lose It Many', u'\u0939\u0938\u094d\u0928\u0941 \u0924\u093f\u092e\u0940 \u0930\u092e\u093e\u0909\u0928\u0941 \u0927\u0947\u0930\u0948 \u0939\u093e\u0930\u0947 \u092e\u0948\u0932\u0947 \u0926\u094b\u0938 \u092e\u0947\u0930\u0948', None, None, 3]], None, u'ne']
+[[[u'Entrance to the Nepal Semifinals by hitting 2 Dallas posts. ', u'\u0968 \u0921\u0932\u094d\u0932\u093e \u092a\u094b\u0938\u094d\u091f\u092e\u093e \u091b\u093f\u0930\u093e\u0909\u0926\u0948 \u0928\u0947\u092a\u093e\u0932 \u0938\u0947\u092e\u093f\u092b\u093e\u0907\u0928\u0932\u092e\u093e \u092a\u094d\u0930\u0935\u0947\u0936 \u0964', None, None, 3], [u'Congratulations to everyone.', u'\u092c\u0927\u093e\u0908 \u0938\u092c\u0948\u0932\u093e\u0908 \u0964', None, None, 3]], None, u'ne']
+[[[u'Entrance to the Nepal Semifinals by hitting 2 Dallas posts. ', u'\u0968 \u0921\u0932\u094d\u0932\u093e \u092a\u094b\u0938\u094d\u091f\u092e\u093e \u091b\u093f\u0930\u093e\u0909\u0926\u0948 \u0928\u0947\u092a\u093e\u0932 \u0938\u0947\u092e\u093f\u092b\u093e\u0907\u0928\u0932\u092e\u093e \u092a\u094d\u0930\u0935\u0947\u0936 \u0964', None, None, 3], [u'Congratulations to everyone.', u'\u092c\u0927\u093e\u0908 \u0938\u092c\u0948\u0932\u093e\u0908 \u0964', None, None, 3]], None, u'ne']
+[[[u'Entrance to the Nepal Semifinals by hitting 2 Dallas posts. ', u'\u0968 \u0921\u0932\u094d\u0932\u093e \u092a\u094b\u0938\u094d\u091f\u092e\u093e \u091b\u093f\u0930\u093e\u0909\u0926\u0948 \u0928\u0947\u092a\u093e\u0932 \u0938\u0947\u092e\u093f\u092b\u093e\u0907\u0928\u0932\u092e\u093e \u092a\u094d\u0930\u0935\u0947\u0936 \u0964', None, None, 3], [u'Congratulations to everyone.', u'\u092c\u0927\u093e\u0908 \u0938\u092c\u0948\u0932\u093e\u0908 \u0964', None, None, 3]], None, u'ne']
+----------------------------------------
+Exception happened during processing of request from ('43.245.86.112', 49744)
+----------------------------------------
+[[[u'', u'']], None, u'ne']
+[[[u'Entrance to the Nepal Semifinals by hitting 2 Dallas posts. ', u'\u0968 \u0921\u0932\u094d\u0932\u093e \u092a\u094b\u0938\u094d\u091f\u092e\u093e \u091b\u093f\u0930\u093e\u0909\u0926\u0948 \u0928\u0947\u092a\u093e\u0932 \u0938\u0947\u092e\u093f\u092b\u093e\u0907\u0928\u0932\u092e\u093e \u092a\u094d\u0930\u0935\u0947\u0936 \u0964', None, None, 3], [u'Congratulations to everyone.', u'\u092c\u0927\u093e\u0908 \u0938\u092c\u0948\u0932\u093e\u0908 \u0964', None, None, 3]], None, u'ne']
+[[[u'Development', u'\u092c\u093f\u0915\u093e\u0938', None, None, 3]], None, u'ne']
+[[[u'Development must be in Nepal', u'\u0935\u093f\u0915\u093e\u0938 \u0928\u0947\u092a\u093e\u0932\u092e\u093e \u0939\u0941\u0928 \u092a\u0930\u094d\u091b', None, None, 3]], None, u'ne']
+[[[u'0', u'0', None, None, 3]], None, u'ne']
+----------------------------------------
+Exception happened during processing of request from ('110.34.30.12', 9585)
+----------------------------------------
+ * Restarting with stat
+Traceback (most recent call last):
+  File "app.py", line 12, in <module>
+    from flask_cors import CORS
+ImportError: No module named flask_cors
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:8090/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 184-568-449
+202.51.85.252 - - [15/Sep/2018 15:14:10] "[37mGET / HTTP/1.1[0m" 200 -
+43.245.86.112 - - [15/Sep/2018 15:15:06] "[37mPOST /upload HTTP/1.1[0m" 200 -
+43.245.86.112 - - [15/Sep/2018 15:15:32] "[37mPOST /upload HTTP/1.1[0m" 200 -
+202.51.85.252 - - [15/Sep/2018 15:16:47] "[37mPOST /upload HTTP/1.1[0m" 200 -
+202.51.88.30 - - [15/Sep/2018 15:17:23] "[37mPOST /upload HTTP/1.1[0m" 200 -
+202.51.85.252 - - [15/Sep/2018 15:17:46] "[37mPOST /upload HTTP/1.1[0m" 200 -
+124.41.243.2 - - [16/Sep/2018 06:08:25] "[37mPOST /upload HTTP/1.1[0m" 200 -
+[[[u'', u'']], None, u'ne']
+[[[u'Entrance to the Nepal Semifinals by hitting 2 Dallas posts. ', u'\u0968 \u0921\u0932\u094d\u0932\u093e \u092a\u094b\u0938\u094d\u091f\u092e\u093e \u091b\u093f\u0930\u093e\u0909\u0926\u0948 \u0928\u0947\u092a\u093e\u0932 \u0938\u0947\u092e\u093f\u092b\u093e\u0907\u0928\u0932\u092e\u093e \u092a\u094d\u0930\u0935\u0947\u0936 \u0964', None, None, 3], [u'Congratulations to everyone.', u'\u092c\u0927\u093e\u0908 \u0938\u092c\u0948\u0932\u093e\u0908 \u0964', None, None, 3]], None, u'ne']
+[[[u'/ 3:00 pm every year', u'/\u0969\u0924\u092e\u0915\u0947\u0939\u0930\u0948 \u0966\u0967\u096d4  \u0915 \u091c\u094c', None, None, 3]], None, u'ne']
+[[[u'Development must be in Nepal', u'\u0935\u093f\u0915\u093e\u0938 \u0928\u0947\u092a\u093e\u0932\u092e\u093e \u0939\u0941\u0928 \u092a\u0930\u094d\u091b', None, None, 3]], None, u'ne']
+[[[u'$ 1514154 .33 2 / \xa3 022: 2: 2 2222 G 1 1 414440124 533 4455 | ', u'\u0967\u096b\u0967\u096a\u0967\u096b\u096a$\u0965\u0969\u0969 2/\xa3\u096622:2:2  2222  \u0917\u0940  1 414440124  \u096b33  44\u096b\u096b  |', None, None, 3], [u'1211101101 000 7447 174000050575579 25000020220200002 200 (7333 0000 0 2? A hydro-maintained TAT, nor 60066 9 615055 P A 0 0 0027 1 7 iiiii 7 A 0 9 30 077 9 7377 A 070 2 73. 1, | 077 37376720050000000000000010000007 0 0000000000000000000000000000000000101010000 370 9 757 307 73 55-56: ', u'1211101101 0\u0966\u0966 \u096d\u096a\u096a\u096d \u0967\u096d\u096a\u0966\u096600505\u096d\u096b5\u096d9 25000020220200002 200 (\u096d\u0969\u0969\u0969 0000 0 2? \u0915 \u092a\u0928 \u0915\u093e\u092f\u092e \u0924\u0924 \u0928\u0924\u093e \u096c\u0966\u0966\u096c\u096c\u096f\u096c\u0967\u096b\u0966\u096b\u096b \u092a\u093f \u0915 0 \u0966 002\u096d \u0967 \u096d \u0908\u0908\u0908\u0908\u0908 \u096d \u0915 \u0966\u096f\u0969\u0966 \u0966\u096d\u096d\u096f \u096d\u0969\u096d\u096d \u0915 0\u096d\u0966 2 \u096d\u0969 \u0964 1 , | 0\u096d\u096d \u0969\u096d\u0969\u096d\u096c\u096d20050000000000000010000007 0 0000000000000000000000000000000000101010000 \u0969\u096d\u0966\u096f\u096d\u096b\u096d \u0969\u0966\u096d \u096d\u0969 \u096b\u096b-\u096b\u096c:', None, None, 0], [u'303: 30333 3333 313: 0077 9 535 9 7 Hip 10030730003433 99 53 9 5557740000000 0000 3 99 0 9 7354355450 9 4777 0700 7547700000000000 0000 cup 000000000000000000000000000001010001010107 0000 0807 47 9 3 Deepak 0007 7 Radical grid rack 7121000402142124122Why do you suffer? ', u'\u0969\u0966\u0969:\u0969\u0966\u0969\u0969\u0969 \u0969\u0969\u0969\u0969 \u0969\u0967\u0969: 00\u096d\u096d \u096f\u096b\u0969\u096b \u096f\u096d \u0939\u093f\u092a \u0967\u0966\u0966\u0969\u0966\u096d\u0969\u0966\u0966\u0966\u0969\u096a\u0969\u0969\u096f\u096f\u096b\u0969\u096f\u096b\u096b\u096b\u096d\u096d\u096a0000000  0\u0966\u0966\u0966 \u0969\u096f\u096f \u0966\u096f\u096d\u0969\u096b\u096a\u0969\u096b\u096b\u096a\u096b\u0966\u096f\u096a\u096d\u096d\u096d 0\u096d\u0966\u0966 \u096d\u096b\u096a\u096d\u096d00000000000 0000 \u0915\u092a000000000000000000000000000001010001010107 0000 080\u096d \u096a\u096d\u096f\u0969  \u0926\u093f\u092a\u0915 000\u096d \u096d \u0930\u0926\u0921\u093f\u0908  \u092a\u0915\u0921 \u0930\u0921 \u0915\u0915 \u096d121000402142124122 \u092a\u090f  \u0926\u0941 \u0939\u0928\u093e? \u092a\u0939 \u0939\u0926 ', None, None, 3], [u'\xa3 44 \xa3 225 2 22260 Provision doubt excessive Provision May 9 4 7,040 0004 2480 \xa3: \xa3 0 \xa3 802 \xa3 01/04 0300 22828110201010121 44140107030: 1000 G. ncakeh | | 4. Anadekaka 1411 1111 1111 11151147 4! 4', u'\u093e\u0915 \u0921\u0921 2 222\u096c\u0966\xa3225\xa3\u096a\u096a \u092c\u0926\u0940 \u0921\u0921 \u092e\u0908 \u096f\u096a \u096d,\u0966\u096a\u0966 \u0966\u0966\u0966\u096a 2480\xa3:\xa30\xa3802\xa301/04 0300 22828110201010121 44140107030: 1000 \u091c\u093f \u0928\u094d\u091a\u0915\u0947\u0903 | | \u096a \u0965 \u0905\u0928\u0921\u0947\u0915\u0915 1411 1111 1111 11151147 \u096a! \u096a', None, None, 0]], None, u'ne']
+[[[u'', u'']], None, u'ne']
+[[[u'Entrance to the Nepal Semifinals by hitting 2 Dallas posts. ', u'\u0968 \u0921\u0932\u094d\u0932\u093e 124.41.243.2 - - [16/Sep/2018 06:08:42] "[37mPOST /upload HTTP/1.1[0m" 200 -
+124.41.243.2 - - [16/Sep/2018 06:21:38] "[37mPOST /upload HTTP/1.1[0m" 200 -
+5.199.133.132 - - [16/Sep/2018 06:25:16] "[37mGET / HTTP/1.1[0m" 200 -
+5.199.133.132 - - [16/Sep/2018 06:25:16] "[33mGET /HNAP1/ HTTP/1.1[0m" 404 -
+124.41.243.2 - - [16/Sep/2018 06:25:42] "[37mPOST /upload HTTP/1.1[0m" 200 -
+124.41.243.2 - - [16/Sep/2018 06:53:12] "[37mPOST /upload HTTP/1.1[0m" 200 -
+202.51.85.252 - - [16/Sep/2018 06:58:18] "[37mGET / HTTP/1.1[0m" 200 -
+202.51.85.252 - - [16/Sep/2018 06:58:34] "[37mPOST /upload HTTP/1.1[0m" 200 -
+124.41.243.2 - - [16/Sep/2018 06:59:14] "[37mPOST /upload HTTP/1.1[0m" 200 -
+124.41.243.2 - - [16/Sep/2018 07:00:08] "[37mPOST /upload HTTP/1.1[0m" 200 -
+\u092a\u094b\u0938\u094d\u091f\u092e\u093e \u091b\u093f\u0930\u093e\u0909\u0926\u0948 \u0928\u0947\u092a\u093e\u0932 \u0938\u0947\u092e\u093f\u092b\u093e\u0907\u0928\u0932\u092e\u093e \u092a\u094d\u0930\u0935\u0947\u0936 \u0964', None, None, 3], [u'Congratulations to everyone.', u'\u092c\u0927\u093e\u0908 \u0938\u092c\u0948\u0932\u093e\u0908 \u0964', None, None, 3]], None, u'ne']
+[[[u'', u'']], None, u'ne']
+[[[u'Nepal is going to be Nepalese Nepal, Nepal will be Nepalese Nepal', u'\u092c\u093f\u0915\u093e\u0938\u094d\u200c \u0928\u0947\u092a\u093e\u0932 \u092e\u093e \u0939\u0941\u0928 \u092a\u091a\u0947 \u0939\u093e\u092e\u0940 \u0928\u0947\u092a\u093e\u0932\u0940 \u0917\u0930\u094d\u0928\u0947\u0939\u094b \u0928\u0947\u092a\u093e\u0932 \u092e\u093e \u0939\u0941\u0928 \u092a\u0930\u094d\u091a \u0939\u093e\u092e\u0940 \u0928\u0947\u092a\u093e\u0932\u0940 \u0932\u0947\u0928\u0948 \u0917\u0930\u094d\u0928\u0947 \u0939\u094b \u0928\u0947\u092a\u093e\u0932 \u092e\u093e \u0939\u0941\u0928 \u092a\u0930\u094d\u091a  \u0939\u093e\u092e\u0940 \u0928\u0947\u092a\u093e\u0932\u0940 \u0932\u0947 \u0928\u0948 \u0917\u0930\u094d\u0928\u0947 \u0939\u094b', None, None, 3]], None, u'ne']
+[[[u'If you have a success in life, you should be very careful. ', u'\u091c\u0940\u0935\u0928 \u092e\u093e \u0938\u092b\u0932\u0924\u093e \u092a\u093e\u0909\u0928\u0941 \u091b \u092d\u0928\u0947 \u0927\u0947\u0930\u0948 \u092e\u0947\u0939\u0947\u0928\u0924 \u0917\u0930\u094d\u0928\u0941 \u092a\u0930\u094d\u091b \u0964', None, None, 3], [u'Be careful if it is 100.', u'\u092e\u0947\u0939\u0947\u0928\u0924 \u0917\u0930\u0947\u092a\u091b\u0940 \u0906\u092b\u0948 100 \u0939\u0941\u0928\u094d\u091b \u0964', None, None, 3]], None, u'ne']
+[[[u'Nepal is going to be Nepalese Nepal, Nepal will be Nepalese Nepal', u'\u092c\u093f\u0915\u093e\u0938\u094d\u200c \u0928\u0947\u092a\u093e\u0932 \u092e\u093e \u0939\u0941\u0928 \u092a\u091a\u0947 \u0939\u093e\u092e\u0940 \u0928\u0947\u092a\u093e\u0932\u0940 \u0917\u0930\u094d\u0928\u0947\u0939\u094b \u0928\u0947\u092a\u093e\u0932 \u092e\u093e \u0939\u0941\u0928 \u092a\u0930\u094d\u091a \u0939\u093e\u092e\u0940 \u0928\u0947\u092a\u093e\u0932\u0940 \u0932\u0947\u0928\u0948 \u0917\u0930\u094d\u0928\u0947 \u0939\u094b \u0928\u0947\u092a\u093e\u0932 \u092e\u093e \u0939\u0941\u0928 \u092a\u0930\u094d\u091a  \u0939\u093e\u092e\u0940 \u0928\u0947\u092a\u093e\u0932\u0940 \u0932\u0947 \u0928\u0948 \u0917\u0930\u094d\u0928\u0947 \u0939\u094b', None, None, 3]], None, u'ne']
+[[[u'The world has two powers of power, one love and another hunger. ', u'\u0938\u0902\u0938\u093e\u0930\u092e\u093e \u0926\u0941\u0907\u0935\u091f\u093e \u0936\u0915\u094d\u0924\u093f\u0939\u0930\u0941\u0915\u094b \u0938\u093e\u092e\u094d\u0930\u093e\u091c\u094d\u092f \u091b \u090f\u0909\u091f\u093e \u092a\u094d\u0930\u0947\u092e \u0930 \u0905\u0930\u094d\u0915\u094b \u092d\u094b\u0915 \u0964', None, None, 3], [u'If you have a success in life, you should be very careful.', u'\u091c\u0940\u0935\u0928 \u092e\u093e \u0938\u092b\u0932\u0924\u093e \u092a\u093e\u0909\u0928\u0941 \u091b \u092d\u0928\u0947 \u0927\u0947\u0930\u0948 \u092e\u0947\u0939\u0947\u0928\u0924 \u0917\u0930\u094d\u0928\u0941 \u092a\u0930\u094d\u091b \u0964', None, None, 3]], None, u'ne']
+[[[u'Nepal is going to be Nepalese Nepal, Nepal will be Nepalese Nepal', u'\u092c\u093f\u0915\u093e\u0938\u094d\u200c \u0928\u0947\u092a\u093e\u0932 \u092e\u093e \u0939\u0941\u0928 \u092a\u091a\u0947 \u0939\u093e\u092e\u0940 \u0928\u0947\u092a\u093e\u0932\u0940 \u0917\u0930\u094d\u0928\u0947\u0939\u094b \u0928\u0947\u092a\u093e\u0932 \u092e\u093e \u0939\u0941\u0928 \u092a\u0930\u094d\u091a \u0939\u093e\u092e\u0940 \u0928\u0947\u092a\u093e\u0932\u0940 \u0932\u0947\u0928\u0948 \u0917\u0930\u094d\u0928\u0947 \u0939\u094b \u0928\u0947\u092a\u093e\u0932 \u092e\u093e \u0939\u0941\u0928 \u092a\u0930\u094d\u091a  \u0939\u093e\u092e\u0940 \u0928\u0947\u092a\u093e\u0932\u0940 \u0932\u0947 \u0928\u0948 \u0917\u0930\u094d\u0928\u0947 \u0939\u094b', None, None, 3]], None, u'ne']
+[[[u'There are two empowerment empire in the world, i124.41.243.2 - - [16/Sep/2018 07:01:50] "[37mPOST /upload HTTP/1.1[0m" 200 -
+124.41.243.2 - - [16/Sep/2018 07:03:47] "[37mPOST /upload HTTP/1.1[0m" 200 -
+124.41.243.2 - - [16/Sep/2018 07:20:21] "[37mPOST /upload HTTP/1.1[0m" 200 -
+f you have success in love and other hunger life, you should be very careful.', u'\u0938\u0902\u0938\u093e\u0930\u092e\u093e \u0926\u0941\u0907\u0935\u091f\u093e \u0936\u0915\u094d\u0924\u093f\u0939\u0930\u0941\u0915\u094b \u0938\u093e\u092e\u094d\u0930\u093e\u091c\u094d\u092f \u091b \u090f\u0909\u091f\u093e \u092a\u094d\u0930\u0947\u092e \u0930 \u0905\u0930\u094d\u0915\u094b \u092d\u094b\u0915 \u091c\u0940\u0935\u0928 \u092e\u093e \u0938\u092b\u0932\u0924\u093e \u092a\u093e\u0909\u0928\u0941 \u091b \u092d\u0928\u0947 \u0927\u0947\u0930\u0948 \u092e\u0947\u0939\u0947\u0928\u0924 \u0917\u0930\u094d\u0928\u0941 \u092a\u0930\u094d\u091b \u0964', None, None, 3]], None, u'ne']
+[[[u'There are two powers of the world in the world, one love and another hunger, if you have success in life, should be careful.', u'\u0938\u0902\u0938\u093e\u0930\u092e\u093e \u0926\u0941\u0907\u0935\u091f\u093e \u0936\u0915\u094d\u0924\u093f\u0939\u0930\u0941\u0915\u094b \u0938\u093e\u092e\u094d\u0930\u093e\u091c\u094d\u092f \u091b \u090f\u0909\u091f\u093e \u092a\u094d\u0930\u0947\u092e \u0930 \u0905\u0930\u094d\u0915\u094b \u092d\u094b\u0915 , \u091c\u0940\u0935\u0928 \u092e\u093e \u0938\u092b\u0932\u0924\u093e \u092a\u093e\u0909\u0928\u0941 \u091b \u092d\u0928\u0947 \u0927\u0947\u0930\u0948 \u092e\u0947\u0939\u0947\u0928\u0924 \u0917\u0930\u094d\u0928\u0941 \u092a\u0930\u094d\u091b \u0964', None, None, 3]], None, u'ne']
+[[[u'Hello Nepal My name is Manis. I want to teach you some teachings, but not life, but by measure, the ideal life is to be free from hatred and anger, the life of a person like idol should be beautiful from all sides.', u'\u0939\u0947\u0932\u094d\u0932\u094b \u0928\u0947\u092a\u093e\u0932  \u092e\u0947\u0930\u094b \u0928\u093e\u092e \u092e\u0928\u093f\u0938 \u0939\u094b  \u092e \u0924\u092a\u093e\u0908\u0939\u0930\u0941\u0932\u093e\u0908 \u0915\u0947\u0939\u093f \u0909\u092a\u0926\u0947\u0936 \u0926\u093f\u0928 \u091a\u093e\u0939\u0928\u094d\u091b\u0941 \u0938\u0941\u0928\u094d\u0928\u0941\u0939\u094b\u0938 \u0939\u0948 \u0924 \u091c\u0940\u0935\u0928\u0932\u093e\u0908 \u0935\u0930\u094d\u0937\u0932\u0947 \u0939\u094b\u0907\u0928, \u0915\u0930\u094d\u092e\u0932\u0947 \u0928\u093e\u092a\u094d\u0928\u0941\u092a\u0930\u094d\u091b  \u0906\u0926\u0930\u094d\u0936 \u091c\u0940\u0935\u0928 \u092d\u0928\u0947\u0915\u094b \u0918\u0943\u0923\u093e \u0930 \u0915\u094d\u0930\u094b\u0927\u092c\u093e\u091f \u092e\u0941\u0915\u094d\u0924 \u0939\u0941\u0928\u0941  \u092e\u0942\u0930\u094d\u0924\u093f \u091c\u0938\u094d\u0924\u0948 \u092e\u093e\u0928\u093f\u0938\u0915\u094b \u091c\u0940\u0935\u0928 \u0938\u092c\u0948\u0924\u093f\u0930\u092c\u093e\u091f \u0938\u0941\u0928\u094d\u0926\u0930 \u0939\u0941\u0928\u0941\u092a\u0930\u094d\u0926\u091b', None, None, 3]], None, u'ne']
+[[[u'Hello Nepal, My name is Manis ', u'\u0939\u0947\u0932\u094d\u0932\u094b \u0928\u0947\u092a\u093e\u0932 , \u092e\u0947\u0930\u094b \u0928\u093e\u092e \u092e\u0928\u093f\u0938 \u0939\u094b |', None, None, 3], [u'I want to teach you some sermons, if so. ', u'\u092e \u0924\u092a\u093e\u0908\u0939\u0930\u0941\u0932\u093e\u0908 \u0915\u0947\u0939\u093f \u0909\u092a\u0926\u0947\u0936 \u0926\u093f\u0928 \u091a\u093e\u0939\u0928\u094d\u091b\u0941, \u0938\u0941\u0928\u094d\u0928\u0941\u0939\u094b\u0938 \u0939\u0948 \u0924 \u0964', None, None, 3], [u'Life should not be measured by years, but by measure. ', u'\u091c\u0940\u0935\u0928\u0932\u093e\u0908 \u0935\u0930\u094d\u0937\u0932\u0947 \u0939\u094b\u0907\u0928, \u0915\u0930\u094d\u092e\u0932\u0947 \u0928\u093e\u092a\u094d\u0928\u0941\u092a\u0930\u094d\u091b\u0964', None, None, 3], [u'Ideal life is free from hatred and anger. ', u'\u0906\u0926\u0930\u094d\u0936 \u091c\u0940\u0935\u0928 \u092d\u0928\u0947\u0915\u094b \u0918\u0943\u0923\u093e \u0930 \u0915\u094d\u0930\u094b\u0927\u092c\u093e\u091f \u092e\u0941\u0915\u094d\u0924 \u0939\u0941\u0928\u0941 \u0964', None, None, 3], [u'Life like a statue should be beautiful from everywhere.', u'\u092e\u0942\u0930\u094d\u0924\u093f \u091c\u0938\u094d\u0924\u0948 \u092e\u093e\u0928\u093f\u0938124.41.243.2 - - [16/Sep/2018 07:53:43] "[37mPOST /upload HTTP/1.1[0m" 200 -
+124.41.243.2 - - [16/Sep/2018 07:55:26] "[37mPOST /upload HTTP/1.1[0m" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 324, in handle_one_request
+    self.raw_requestline = self.rfile.readline()
+IOError: [Errno 104] Connection reset by peer
+71.6.199.23 - - [16/Sep/2018 08:33:49] "[37mGET / HTTP/1.1[0m" 200 -
+71.6.199.23 - - [16/Sep/2018 08:33:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+124.41.243.2 - - [16/Sep/2018 09:01:11] "[37mPOST /upload HTTP/1.1[0m" 200 -
+\u0915\u094b \u091c\u0940\u0935\u0928 \u0938\u092c\u0948\u0924\u093f\u0930\u092c\u093e\u091f \u0938\u0941\u0928\u094d\u0926\u0930 \u0939\u0941\u0928\u0941\u092a\u0930\u094d\u0926\u091b \u0964', None, None, 3]], None, u'ne']
+[[[u'Hello Nepal, my name is Manis. ', u'\u0939\u0947\u0932\u094d\u0932\u094b \u0928\u0947\u092a\u093e\u0932 ,  \u092e\u0947\u0930\u094b \u0928\u093e\u092e \u092e\u0928\u093f\u0938 \u0939\u094b\u0964', None, None, 3], [u'I want to teach you some sermons, if so. ', u'\u092e \u0924\u092a\u093e\u0908\u0939\u0930\u0941\u0932\u093e\u0908 \u0915\u0947\u0939\u093f \u0909\u092a\u0926\u0947\u0936 \u0926\u093f\u0928 \u091a\u093e\u0939\u0928\u094d\u091b\u0941, \u0938\u0941\u0928\u094d\u0928\u0941\u0939\u094b\u0938 \u0939\u0948 \u0924\u0964', None, None, 3], [u'Life should not be measured by years, but by measure. ', u'\u091c\u0940\u0935\u0928\u0932\u093e\u0908 \u0935\u0930\u094d\u0937\u0932\u0947 \u0939\u094b\u0907\u0928, \u0915\u0930\u094d\u092e\u0932\u0947 \u0928\u093e\u092a\u094d\u0928\u0941\u092a\u0930\u094d\u091b\u0964', None, None, 3], [u'Ideal life, free from hatred and anger, should be beautiful from everywhere, like a statue.', u'\u0906\u0926\u0930\u094d\u0936 \u091c\u0940\u0935\u0928 \u092d\u0928\u0947\u0915\u094b \u0918\u0943\u0923\u093e \u0930 \u0915\u094d\u0930\u094b\u0927\u092c\u093e\u091f \u092e\u0941\u0915\u094d\u0924 \u0939\u0941\u0928\u0941  \u092e\u0942\u0930\u094d\u0924\u093f \u091c\u0938\u094d\u0924\u0948 \u092e\u093e\u0928\u093f\u0938\u0915\u094b \u091c\u0940\u0935\u0928 \u0938\u092c\u0948\u0924\u093f\u0930\u092c\u093e\u091f \u0938\u0941\u0928\u094d\u0926\u0930 \u0939\u0941\u0928\u0941\u092a\u0930\u094d\u0926\u091b\u0964', None, None, 3]], None, u'ne']
+----------------------------------------
+Exception happened during processing of request from ('124.41.243.2', 37648)
+----------------------------------------
+[[[u'Q. No "P is neither nor anymore). ', u'\u0915\u0940 0 \u0928\u201d \u092a\u0940 \u0939\u0948 \u0928 \u0928 \u0930 \u0930 \u0917\u0930\u0940) \u0965', None, None, 3], [u'Every day 02 Hello Nepal My name is Manis. I want to teach you some teachings, so that life should not be measured by years, and the measure should be measured according to the ideal life. Being free from hatred and anger, life like a statue drank from all sides 17', u'\u0939\u0930 0 \u0965\u094c 02     \u0939\u0947\u0932\u094d\u0932\u094b \u0928\u0947\u092a\u093e\u0932  \u092e\u0947\u0930\u094b \u0928\u093e\u092e \u092e\u0928\u093f\u0938 \u0939\u094b  \u092e \u0924\u092a\u093e\u0908\u0939\u0930\u0941\u0932\u093e\u0908 \u0915\u0947\u0939\u093f \u0909\u092a\u0926\u0947\u0936 \u0926\u093f\u0928 \u091a\u093e\u0939\u0928\u094d\u091b\u0941 \u0938\u0941\u0928\u094d\u0928\u0941\u0939\u094b\u0938 \u0939\u0948 \u0924 \u091c\u0940\u0935\u0928\u0932\u093e\u0908 \u0935\u0930\u094d\u0937\u0932\u0947 \u0939\u094b\u0907\u0928, \u0915\u0930\u094d\u092e\u0932\u0947 \u0928\u093e\u092a\u094d\u0928\u0941\u092a\u0930\u094d\u091b  \u0906\u0926\u0930\u094d\u0936 \u091c\u0940\u0935\u0928 \u092d\u0928\u0947\u0915\u094b \u0918\u0943\u0923\u093e \u0930 \u0915\u094d\u0930\u094b\u0927\u092c\u093e\u091f \u092e\u0941\u0915\u094d\u0924 \u0939\u0941\u0928\u0941     \u092e\u0942\u0930\u094d\u0924\u093f \u091c\u0938\u094d\u0924\u0948 \u092e\u093e\u0928\u093f\u0938\u0915\u094b \u091c\u0940\u0935\u0928 \u0938\u092c\u0948\u0924\u093f\u0930\u092c\u093e\u091f \u0938\u0941\u0928\u094d\u0924  17', None, None, 3]], None, u'ne']
+[[[u'Hello Nepal My name is Manis. I want to teach you some teachings, but not life, but by measure, the ideal life is to be free from hatred and anger, the life of a person like idol should be beautiful from all sides.', u'\u0939\u0947\u0932\u094d\u0932\u094b \u0928\u0947\u092a\u093e\u0932  \u092e\u0947\u0930\u094b \u0928\u093e\u092e \u092e\u0928\u093f\u0938 \u0939\u094b  \u092e \u0924\u092a\u093e\u0908\u0939\u0930\u0941\u0932\u093e\u0908 \u0915\u0947\u0939\u093f \u0909\u092a\u0926\u0947\u0936 \u0926\u093f\u0928 \u091a\u093e\u0939\u0928\u094d\u091b\u0941 \u0938\u0941\u0928\u094d\u0928\u0941\u0939\u094b\u0938 \u0939\u0948 \u0924 \u091124.41.243.2 - - [16/Sep/2018 09:01:51] "[37mPOST /upload HTTP/1.1[0m" 200 -
+124.41.243.2 - - [16/Sep/2018 09:03:05] "[37mPOST /upload HTTP/1.1[0m" 200 -
+124.41.243.2 - - [16/Sep/2018 09:07:06] "[37mPOST /upload HTTP/1.1[0m" 200 -
+c\u0940\u0935\u0928\u0932\u093e\u0908 \u0935\u0930\u094d\u0937\u0932\u0947 \u0939\u094b\u0907\u0928, \u0915\u0930\u094d\u092e\u0932\u0947 \u0928\u093e\u092a\u094d\u0928\u0941\u092a\u0930\u094d\u091b  \u0906\u0926\u0930\u094d\u0936 \u091c\u0940\u0935\u0928 \u092d\u0928\u0947\u0915\u094b \u0918\u0943\u0923\u093e \u0930 \u0915\u094d\u0930\u094b\u0927\u092c\u093e\u091f \u092e\u0941\u0915\u094d\u0924 \u0939\u0941\u0928\u0941  \u092e\u0942\u0930\u094d\u0924\u093f \u091c\u0938\u094d\u0924\u0948 \u092e\u093e\u0928\u093f\u0938\u0915\u094b \u091c\u0940\u0935\u0928 \u0938\u092c\u0948\u0924\u093f\u0930\u092c\u093e\u091f \u0938\u0941\u0928\u094d\u0926\u0930 \u0939\u0941\u0928\u0941\u092a\u0930\u094d\u0926\u091b', None, None, 3]], None, u'ne']
+[[[u"Hello Nepal, My name is Manis. I want to teach you some teachings, so that life is not measured by years, and it should be measured according to the ideal life. Being free of hatred and anger, man's life like idol must be beautiful from all sides.", u'\u0939\u0947\u0932\u094d\u0932\u094b \u0928\u0947\u092a\u093e\u0932  \u092e\u0947\u0930\u094b \u0928\u093e\u092e \u092e\u0928\u093f\u0938 \u0939\u094b  \u092e \u0924\u092a\u093e\u0908\u0939\u0930\u0941\u0932\u093e\u0908 \u0915\u0947\u0939\u093f \u0909\u092a\u0926\u0947\u0936 \u0926\u093f\u0928 \u091a\u093e\u0939\u0928\u094d\u091b\u0941 \u0938\u0941\u0928\u094d\u0928\u0941\u0939\u094b\u0938 \u0939\u0948 \u0924 \u091c\u0940\u0935\u0928\u0932\u093e\u0908 \u0935\u0930\u094d\u0937\u0947\u0932\u0947 \u0939\u094b\u0907\u0928, \u0915\u0930\u094d\u092e\u0932\u0947 \u0928\u093e\u092a\u094d\u0928\u0941\u092a\u0930\u094d\u091b  \u0906\u0926\u0930\u094d\u0936 \u091c\u0940\u0935\u0928 \u092d\u0928\u0947\u0915\u094b \u0918\u0943\u0923\u093e \u0930 \u0915\u094d\u0930\u094b\u0927\u092c\u093e\u091f \u092e\u0941\u0915\u094d\u0924 \u0939\u0941\u0928\u0941  \u092e\u0942\u0930\u094d\u0924\u093f \u091c\u0938\u094d\u0924\u0948 \u092e\u093e\u0928\u093f\u0938\u0915\u094b \u091c\u0940\u0935\u0928 \u0938\u092c\u0948\u0924\u093f\u0930\u092c\u093e\u091f \u0938\u0941\u0928\u094d\u0926\u0930 \u0939\u0941\u0928\u0941\u092a\u0926\u091b', None, None, 3]], None, u'ne']
+[[[u'The world has two powers of power, one love and another hunger. ', u'\u0938\u0902\u0938\u093e\u0930\u092e\u093e \u0926\u0941\u0907\u0935\u091f\u093e \u0936\u0915\u094d\u0924\u093f\u0939\u0930\u0941\u0915\u094b \u0938\u093e\u092e\u094d\u0930\u093e\u091c\u094d\u092f \u091b \u090f\u0909\u091f\u093e \u092a\u094d\u0930\u0947\u092e \u0930 \u0905\u0930\u094d\u0915\u094b \u092d\u094b\u0915 \u0964', None, None, 3], [u'If you have a success in life, you should be very careful.', u'\u091c\u0940\u0935\u0928 \u092e\u093e \u0938\u092b\u0932\u0924\u093e \u092a\u093e\u0909\u0928\u0941 \u091b \u092d\u0928\u0947 \u0927\u0947\u0930\u0948 \u092e\u0947\u0939\u0947\u0928\u0924 \u0917\u0930\u094d\u0928\u0941 \u092a\u0930\u094d\u091b \u0964', None, None, 3]], None, u'ne']
+[[[u'Hi Nepal, my name is Manis. ', u'\u0928\u092e\u0938\u094d\u0924\u0947 \u0928\u0947\u092a\u093e\u0932 , \u092e\u0947\u0930\u094b \u0928\u093e\u092e \u092e\u0928\u093f\u0938 \u0939\u094b\u0964', None, None, 3], [u'I want to teach you some sermons, if so. ', u'\u092e \u0924\u092a\u093e\u0908\u0939\u0930\u0941\u0932\u093e\u0908 \u0915\u0947\u0939\u093f \u0909\u092a\u0926\u0947\u0936 \u0926\u093f\u0928 \u091a\u093e\u0939\u0928\u094d\u091b\u0941, \u0938\u0941\u0928\u094d\u0928\u0941\u0939\u094b\u0938 \u0939\u0948 \u0924\u0964', None, None, 3], [u'Life should not be measured by years, but by measure. ', u'\u091c\u0940\u0935\u0928\u0932\u093e\u0908 \u0935\u0930\u094d\u0937\u0932\u0947 \u0939\u094b\u0907\u0928, \u0915\u0930\u094d\u092e\u0932\u0947 \u0928\u093e\u092a\u094d\u0928\u0941\u092a\u0930\u094d\u091b\u0964', None, None, 3], [u'Ideal life is free from hatred and anger. ', u'\u0906\u0926\u0930\u094d\u0936 \u091c\u0940\u0935\u0928 \u092d\u0928\u0947\u0915\u094b \u0918\u0943\u0923\u093e \u0930 \u0915\u094d\u0930\u094b\u0927\u092c\u093e\u091f \u092e\u0941\u0915\u094d\u0924 \u0939\u0941\u0928\u0941\u0964', None, None, 3], [u'Life like a statue should be beautiful from124.41.243.2 - - [16/Sep/2018 10:47:10] "[37mPOST /upload HTTP/1.1[0m" 200 -
+124.41.243.2 - - [16/Sep/2018 10:51:04] "[37mPOST /upload HTTP/1.1[0m" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 324, in handle_one_request
+    self.raw_requestline = self.rfile.readline()
+IOError: [Errno 104] Connection reset by peer
+124.41.243.2 - - [16/Sep/2018 10:59:56] "[37mPOST /upload HTTP/1.1[0m" 200 -
+ everywhere.', u'\u092e\u0942\u0930\u094d\u0924\u093f \u091c\u0938\u094d\u0924\u0948 \u092e\u093e\u0928\u093f\u0938\u0915\u094b \u091c\u0940\u0935\u0928 \u0938\u092c\u0948\u0924\u093f\u0930\u092c\u093e\u091f \u0938\u0941\u0928\u094d\u0926\u0930 \u0939\u0941\u0928\u0941\u092a\u0930\u094d\u0926\u091b\u0964', None, None, 3]], None, u'ne']
+[[[u'Hello Nepal, My name is Manis, I want to teach you some preaching, not life, but by measure, the ideal life is to be free from hatred and anger, the life of a person like idol must be beautiful from everywhere.', u'\u0928\u092e\u0938\u094d\u0924\u0947 \u0928\u0947\u092a\u093e\u0932 , \u092e\u0947\u0930\u094b \u0928\u093e\u092e \u092e\u0928\u093f\u0938 \u0939\u094b  \u092e \u0924\u092a\u093e\u0908\u0939\u0930\u0941\u0932\u093e\u0908 \u0915\u0947\u0939\u093f \u0909\u092a\u0926\u0947\u0936 \u0926\u093f\u0928 \u091a\u093e\u0939\u0928\u094d\u091b\u0941, \u0938\u0941\u0928\u094d\u0928\u0941\u0939\u094b\u0938 \u0939\u0948 \u0924 \u091c\u0940\u0935\u0928\u0932\u093e\u0908 \u0935\u0930\u094d\u0937\u0947\u0932\u0947 \u0939\u094b\u0907\u0928, \u0915\u0930\u094d\u092e\u0932\u0947 \u0928\u093e\u092a\u094d\u0928\u0941\u092a\u0930\u094d\u091b  \u0906\u0926\u0930\u094d\u0936 \u091c\u0940\u0935\u0928 \u092d\u0928\u0947\u0915\u094b \u0918\u0943\u0923\u093e \u0930 \u0915\u094d\u0930\u094b\u0927\u092c\u093e\u091f \u092e\u0941\u0915\u094d\u0924 \u0939\u0941\u0928\u0941 \u092e\u0942\u0930\u094d\u0924\u093f \u091c\u0938\u094d\u0924\u0948 \u092e\u093e\u0928\u093f\u0938\u0915\u094b \u091c\u0940\u0935\u0928 \u0938\u092c\u0947\u0924\u093f\u0930\u092c\u093e\u091f \u0938\u0941\u0928\u094d\u0926\u0930 \u0939\u0941\u0928\u0941\u092a\u0930\u094d\u0926\u091b', None, None, 3]], None, u'ne']
+----------------------------------------
+Exception happened during processing of request from ('124.41.243.2', 38092)
+----------------------------------------
+[[[u'Hello Nepal, Listen to some inspirational quotes Life 10% What happens to you and 90% how you react to it Favorability is a belief that goes for achievements today change your life', u'\u0928\u092e\u0938\u094d\u0924\u0947 \u0928\u0947\u092a\u093e\u0932, \u0915\u0947\u0939\u0940 \u092a\u094d\u0930\u0947\u0930\u0923\u093e\u0924\u094d\u092e\u0915 \u0909\u0926\u094d\u0927\u0930\u0923\u0939\u0930\u0942 \u0938\u0941\u0928\u094d\u0928\u0941\u0939\u094b\u0938\u094d\u200c  \u091c\u0940\u0935\u0928 10% \u0924\u092a\u093e\u0908 \u0915\u0947 \u0939\u0941\u0928\u094d\u091b \u0930 90% \u0924\u092a\u093e\u0908\u0932\u0947 \u092f\u0938\u0932\u093e\u0908 \u0915\u0938\u0930\u0940 \u092a\u094d\u0930\u0924\u093f\u0915\u094d\u0930\u093f\u092f\u093e \u0926\u093f\u0928\u0941\u0939\u0941\u0928\u094d\u091b \u0905\u0928\u0941\u0915\u0942\u0932\u0924\u093e \u092f\u094b \u0935\u093f\u0936\u094d\u0935\u093e\u0938 \u0939\u094b \u091c\u0938\u0932\u0947 \u0909\u092a\u0932\u092c\u094d\u0927\u093f\u0915\u094b \u0932\u093e\u0917\u093f \u091c\u093e\u0928\u094d\u091b  \u0906\u091c \u0906\u092b\u094d\u0928\u094b \u091c\u0940\u0935\u0928 \u092a\u0930\u093f\u0935\u0930\u094d\u0924\u0928 \u0917\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d\u200c', None, None, 3]], None, u'ne']
+[[[u'Hello Nepal, Listen to some inspirational quotes Life 10% What happens to you and 90% how you react to it Favorability is a belief that goes for achievements today change your life', u'\u0928\u092e\u0938\u094d\u0924\u0947 \u0928\u0947\u092a\u093e\u0932, \u0915\u0947\u0939\u0940 \u092a\u094d\u0930\u0947\u0930\u0923\u093e\u0924\u094d\u092e\u0915 \u0909\u0926\u094d\u0927\u0930\u0923\u0939\u0930\u0942 \u0938\u0941\u0928\u094d\u0928\u0941\u0939\u094b\u0938\u094d\u200c  \u091c\u0940\u0935\u0928 10% \u0924\u092a\u093e\u0908 \u0915\u0947 \u0939\u0941\u0928\u094d\u091b \u0930 90% \u0924\u092a\u093e\u0908\u0932\u0947 \u092f\u0938\u0932\u093e\u0908 \u0915\u0938\u0930\u0940 \u092a\u094d\u0930\u0924\u093f\u0915\u094d\u0930\u093f\u092f\u093e \u0926\u093f\u0928\u0941\u0939\u0941\u0928\u094d\u091b \u0905\u0928\u0941\u0915\u0942\u0932\u0924\u093e \u092f\u094b \u0935\u093f\u0936\u094d\u0935\u093e\u0938 \u0939\u094b \u091c\u0938\u0932\u0947 \u0909\u0124.41.243.2 - - [16/Sep/2018 11:01:57] "[37mPOST /upload HTTP/1.1[0m" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 324, in handle_one_request
+    self.raw_requestline = self.rfile.readline()
+IOError: [Errno 104] Connection reset by peer
+124.41.243.2 - - [16/Sep/2018 11:13:13] "[37mPOST /upload HTTP/1.1[0m" 200 -
+/home/ubuntu/.local/lib/python2.7/site-packages/PIL/Image.py:984: UserWarning: Couldn't allocate palette entry for transparency
+  "for transparency")
+124.41.243.2 - - [16/Sep/2018 13:27:06] "[1m[35mPOST /upload HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/devnagariOcrAndTranslate/app.py", line 35, in upload
+    text = pytesseract.image_to_string(img, lang="nep").replace("\n"," ")  #Specify language to look after!
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/pytesseract/pytesseract.py", line 294, in image_to_string
+    return run_and_get_output(*args)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/pytesseract/pytesseract.py", line 192, in run_and_get_output
+    temp_name, input_filename = save_image(image)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/pytesseract/pytesseract.py", line 122, in save_image
+    image.save(input_file_name, format=img_extension, **image.info)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/PIL/Image.py", line 1950, in save
+    save_handler(self, fp, filename)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/PIL/GifImagePlugin.py", line 470, in _save
+    _write_single_frame(im, fp, palette)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/PIL/GifImagePlugin.py", line 384, in _write_single_frame
+    _write_local_header(fp, im, (0, 0), flags)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/PIL/GifImagePlugin.py", line 495, in _write_local_header
+    transparency = int(transparency)
+TypeError: int() argument must be a string or a number, not 'tuple'
+92a\u0932\u092c\u094d\u0927\u093f\u0915\u094b \u0932\u093e\u0917\u093f \u091c\u093e\u0928\u094d\u091b  \u0906\u091c \u0906\u092b\u094d\u0928\u094b \u091c\u0940\u0935\u0928 \u092a\u0930\u093f\u0935\u0930\u094d\u0924\u0928 \u0917\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d\u200c', None, None, 3]], None, u'ne']
+----------------------------------------
+Exception happened during processing of request from ('124.41.243.2', 38122)
+----------------------------------------
+[[[u"Hello Nepal, I'm Manish and I'm testing some text translations here. Nepal is a beautiful country which has differentiation in caste and race, but there are many things that need to be developed.", u'\u0928\u092e\u0938\u094d\u0915\u093e\u0930 \u0928\u0947\u092a\u093e\u0932, \u092e \u092e\u0928\u0940\u0936 \u0939\u0941\u0901 \u0930 \u092e \u092f\u0939\u093e\u0901 \u0915\u0947\u0939\u093f \u092a\u093e\u0920 \u0905\u0928\u0941\u0935\u093e\u0926\u0915\u094b \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0917\u0930\u094d\u0926\u0948\u091b\u0941 \u0928\u0947\u092a\u093e\u0932 \u090f\u0915 \u0938\u0941\u0928\u094d\u0926\u0930 \u0926\u0947\u0936 \u0939\u094b \u091c\u0938\u0915\u094b \u091c\u093e\u0924\u093f \u0930 \u091c\u093e\u0924\u093f\u092e\u093e \u092d\u093f\u0928\u094d\u0928\u0924\u093e \u091b \u0924\u0930 \u0924\u094d\u092f\u0939\u093e\u0901 \u0927\u0947\u0930\u0948 \u091a\u0940\u091c\u0939\u0930\u0942 \u091b\u0928\u094d\u200c \u091c\u0941\u0928 \u0935\u093f\u0915\u093e\u0938\u0915\u094b \u0932\u093e\u0917\u093f \u0917\u0930\u094d\u0928 \u0906\u0935\u0936\u094d\u092f\u0915 \u091b\u0964', None, None, 3]], None, u'ne']
+[[[u'Coming to the world of distinction 1 There was a promise before the world was created. ', u'\u0916\u0937\u094d\u091f \u0938\u0902\u0938\u093e\u0930\u092e\u093e \u0906\u0909\u0928\u0941 \u092d\u092f\u094b  \u0967 \u0938\u0902\u0938\u093e\u0930 \u0938\u0943\u0937\u094d\u091f\u093f \u0939\u0941\u0928 \u092a\u0939\u093f\u0932\u094d\u092f\u0948 \u0924\u094d\u092f\u0939\u093e\u0901 \u0935\u091a\u0928\xbb \u0925\u093f\u092f\u094b\u0964', None, None, 3], [u'That word was with God, and the Word was God. ', u'\u0924\u094d\u092f\u094b  \u0935\u091a\u0928 \u092a\u0930\u092e\u0947\u0936\u094d\u0935\u0930 \u0938\u0902\u0917 \u0939\u0941\u0928\u0941\u0939\u0941\u0928\u094d\u0925\u094d\u092f\u094b, \u0905\u0928\u093f \u0935\u091a\u0928 \u092a\u0930\u092e\u0947\u0936\u094d\u0935\u0930 \u0939\u0941\u0928\u0941\u0939\u0941\u0928\u094d\u0925\u094d\u092f\u094b\u0964', None, None, 3], [u'His Word was with God at first. ', u'\u0909\u0939\u093e\u0901\u0915\u094b \u0935\u091a\u0928 \u0928\u0948 \u0936\u0941\u0930\u0942\u092e\u093e \u092a\u0930\u092e\u0947\u0936\u094d\u0935\u0930 \u0938\u0902\u0917 \u0939\u0941\u0928\u0941\u0939\u0941\u0928\u094d\u0925\u094d\u092f\u094b\u0964', None, None, 3], [u'He created the world through him. ', u'\u0930\u0930 \u0909\u0939\u093e\u0901\u0915\u0948 \u092e\u093e\u0927\u094d\u092f\u092e\u092c\u093e\u091f \u0935\u093f\u0936\u094d\u0935 \u0938\u0943\u091c\u0928\u093e \u0939\u0941\u0928 \u0938\u0915\u094d\u092f\u094b\u0964', None, None, 3], [u'He could not create anything without it. ', u'\u0909\u0939\u093e\u0901 \u092c\u093f\u0928\u093e \u0915\u0947\u0939\u0940 \u0938\u0943\u091c\u0928\u093e \u0939\u0941\u0928 \u0938\u0915\u0947\u0928\u0964', None, None, 3], [u'"He was his life. ', u'\u201c\u0909\u0939\u093e\u0901 \u0938\u094d\u0935\u092f\u0902 \u091c\u0940\u0935\u0928 \u0939\u0941\u0928\u0941\u0939\u0941\u0928\u094d\u0925\u094d\u092f\u094b\u0964', None, None, 3], [u'That life was a light for people. ', u'\u0924\u094d\u092f\u094b \u091c\u0940\u0935\u0928 \u092e\u093e\u0928\u093f\u0938\u0939\u0930\u0942\u0915\u094b \u0928\u093f\u092e\u094d\u0924\u093f \u091c\u094d\u092f\u094b\u0924\u093f \u0925\u093f\u092f\u094b\u0964', None, None, 3], [u'"That light shines in the dark, and the darkness does not control the light.', u'"\u0924\u094d\u092f\u094b \u091c\u094d\u092f\u094b\u0924\u093f \u0905\u0901\u0927\u094d\u092f\u093e\u0930\u094b\u092e\u093e \u091a\u092e\u094d\u0915\u0928\u094d\u091b\u0964 \u0905\u0928\u093f \u0905\u0928\u094d\u0927\u124.41.243.2 - - [16/Sep/2018 13:28:03] "[37mPOST /upload HTTP/1.1[0m" 200 -
+0915\u093e\u0930\u0932\u0947 \u091c\u094d\u092f\u094b\u0924\u093f\u0932\u093e\u0908 \u091c\u093f\u0924\u094d\u0928 \u0938\u0935\u094d\u0926\u0948\u0928\u0964', None, None, 3]], None, u'ne']
+[[[u'7: 5. ', u'\u096d: \u096b.', None, None, 3], [u'9 22: 20:24: Cc: 520002032400000240000000: 2240252012120122222200022000002100000020021001 000 000000000140101000010010000100000002002000001000400420 21241121141224242224141144452142424444441: 244: 40: $ 02040020020205502232000020040202222202222020002 200420202220022202220222202220001002120000000 pain dadada term solution to pain da du handcuff stretched if tijutida days after the mega-knock duck 00000000003004300430202440444422320233403002005000 2 2200222222222222222222222202 0000: 2222: 00128020: 029: 201: ', u'9 22: 20:24: \u0938\u093f\u0938\u093f : \u096b20002032400000240000000: 2240252012120122222200022000002100000020021001 000 000000000140101000010010000100000002002000001000400420 21241121141224242224141144452142424444441:244:40: $02040020020205502232000020040202222202222020002 200420202220022202220222202220001002120000000 \u0939\u0932 \u0926\u0926 \u0926\u093e \u0926\u0926 \u0926\u0921\u0926 \u092a\u0926 \u0926\u0942 \u0939\u0924 \u0924\u0928\u0940 \u092f\u093f\u0926 \u0926\u0926\u0928 \u0924\u093f\u091c\u0941\u091f\u093f\u0921 \u091c\u0924\u093f\u092a\u0928\u093f \u0928\u0915 \u0921\u0915 0000 00000000003004300430202440444422320233403002005000 2 2200222222222222222222222202:2222:00128020:029:201:', None, None, 0], [u'0004: 001212000210044440. ', u'0004:001212000210044440.', None, None, 3], [u'100010012000010000001010000072012071271000000721100007700100070027101120101120312121017 "07 00000000010200000100000100000007272470" 700170004021720201205 221000042002402000420200020002200020222002000010171001010101 26220 \xa3 022220000022220200000000220220022002000000000010000000 22420202010000001004002024020220242020022201010200000100011010007 "02242002040400422220051222422202004220020202000200000002202040400140020000024224 \xa3 0000000700120040000000200022221200000200170000002202000000020000700001010001010100000 2222210222042042124: 22222222: \xa3 7242002000420424: 0000 0 00010012000000000000200202020001010200000100000010000100100 20000000020200000004012000000001010000000120000000000010010101010200 papayathamanadinira papana beverage, acting nabhanidanananana panapaya water and inaedaenapaya manalada vomiting de la nipadadanadana and Pitt can bhatadata 2220 022020202000100024040001000041100100021412104 ', u'\u096700010012000010000001010000072012071271000000721100007700100070027101120101120312121017\u201c07 \u0966\u0966000000010200000100000100000007272470\u201c700170004021720201205 221000042002402000420200020002200020222002000010171001010101 2\u096c220\xa3022220000022220200000000220220022002000000000010000000 22420202010000001004002024020220242020022201010200000100011010007\u201c 02242002040400422220051222422202004220020202000200000002202040400140020000024224 \xa30000000700120040000000200022221200000200170000002202000000020000700001010001010100000 2222210222042042124:22222222:\xa37242002000420424: 0000 0 00010012000000000000200202020001010200000100000010000100100 20000000020200000004012000000001010000000120000000000010010101010200 \u092a\u092a\u092f\u0925\u092e\u0923\u0921\u093f\u0928\u093f\u0930 \u092a\u092a\u0928 \u0928\u092d\u092f \u092a\u092f \u0928\u092d\u0928\u093f\u0921\u0923\u0923\u0928\u0928 \u092a\u0928\u092a\u092f \u091c\u0932 \u0935\u092e\u0928 \u0921\u093f \u092e\u0923\u0932\u0921 \u0930 \u093f\u0928\u090f\u0921\u090f\u0923\u092a\u092f\u093e \u0932\u093e \u0923\u093f\u092a\u0921\u0921\u0928\u0921\u0923 \u0930 \u092a\u093f\u091f \u092a\u093e \u092d\u091f\u0921\u091f 2220 022020202000100024040001000041100100021412104', None, None, 0], [u'0020200021012002020201020220200020202000212120001210024200041002201002001011000000212101012111002 theaters, 20000444044002202400 \xa3 04442004022 202200002000000000020220008000400000000002000020100120000 7 2 \xa3 2401442000002202000010020022020000212220000102110100010010004 120 242412210141444244007201204422222442240212042 \xa3 12200211102104140545 5000000007020002000000210220000102002001000004002000000001000000000277 2. 2 00000000001010010000004001410004022002204002200200200220000000020100000001001100040000 2200 242422502102400400044200440227024442400040 \xa3 44024204000002050002442200000 \xa3 4000000000120400007 2 00002200400004000000000301000000210020000012200001010700 20 22 00000010010100100100001004501000200020200002202200002200000100120102-0020202100201400000000200102 \xa3 0100107010000101000 1 200100000040200020001200000010200200000200002004000020070001000000020020200000-012001000000010012000070010001010 "400201101401000120012400004000200300200222000200000000000200000202400000101100000404000100 ', u'0020200021012002020201020220200020202000212120001210024200041002201002001011000000212101012111002 \u0926\u0948 20000444044002202400\xa304442004022 202200002000000000020220008000400000000002000020100120000 \u096d 2\xa32401442000002202000010020022020000212220000102110100010010004 \u09672\u0966 242412210141444244007201204422222442240212042 \xa312200211102104140545 5000000007020002000000210220000102002001000004002000000001000000000277 2. 2 00000000001010010000004001410004022002204002200200200220000000020100000001001100040000 2200 242422502102400400044200440227024442400040\xa344024204000002050002442200000\xa34000000000120400007 2 00002200400004000000000301000000210020000012200001010700 20 22 00000010010100100100001004501000200020200002202200002200000100120102-0020202100201400000000200102\xa30100107010000101000 \u0967 200100000040200020001200000010200200000200002004000020070001000000020020200000-012001000000010012000070010001010\u201c 400201101401000120012400004000200300200222000200000000000200000202400000101100000404000100', None, None, 0], [u'000011010100101100001 22 2 2402002204202200042000412010200040400002002022220027470222004000400000000010040000000000004101000040 0. ', u'000011010100101100001 22 2 2402002204202200042000412010200040400002002022220027470222004000400000000010040000000000004101000040 \u0966.', None, None, 3], [u'222022200220000402221121242422202002220222022202424042004024224400400402415404000502402105441041504 7 3 202040000002001222101040000000200222000040200020007002012020000021001000201104020210100000000101010000202407 .- 7, 2: 00014404424202 \xa3 3 4242220254042455422440044000002424020022222240220450222202204204504200000500010020 to have a bone thuhuna 42, 3133, 2 0440220400001400004020120001002040220022021200000320000020202202202000200000000000040000000000002 fees "kamalkainake / s -2 / 8" 8 "9 / gai kai" 202 "ai 20 \xa3 202000000002000200243000000020000000020003400020220200010000010012170000100000010100 222121220074 ', u'222022200220000402221121242422202002220222022202424042004024224400400402415404000502402105441041504 \u096d \u0969 202040000002001222101040000000200222000040200020007002012020000021001000201104020210100000000101010000202407 \u0965- \u096d, 2: \u0924 \u0969 00014404424202\xa34242220254042455422440044000002424020022222240220450222202204204504200000500010020 \u091f\u0941 \u0915 \u0925\u0941\u0939\u0941\u0928 \u0939\u093f 42, \u0969\u0967\u0969\u0969, 2 0440220400001400004020120001002040220022021200000320000020202202202000200000000000040000000000002 \u092b\u093f \u201c\u0915\u092e\u0932\u094d\u0915\u0948\u0928\u0915\u0947/\u091b-2/8\u201c8\u201c9/\u0917\u0948- \u0915\u0948\u201c 202\u201c \u0948 20\xa3202000000002000200243000000020000000020003400020220200010000010012170000100000010100 222121220074', None, None, 0], [u'$ 2902254 \xa3 0004024000244025444452 B102212220220222420004400042202202040: 2424202000120024202002020000000002222012040000 2201200140 "Di Hanen 2002 01100110000010002200: 2: 030032200240040020002000000000000000000 0000-221420020000000000100120101100100050001125010000001000104000100000', u'$2902254\xa30004024000244025444452 B102212220220222420004400042202202040:2424202000120024202002020000000002222012040000 2201200140\u201c \u0921\u093f \u0939\u0928\u0928 2002 01100110000010002200:2:030032200240040020002000000400022000:0020-221420020000000000100120101100100050001125010000001000104000100000', None, None, 3]], Non110.44.127.215 - - [16/Sep/2018 14:09:30] "[37mPOST /upload HTTP/1.1[0m" 200 -
+110.44.127.215 - - [16/Sep/2018 14:10:22] "[37mPOST /upload HTTP/1.1[0m" 200 -
+110.44.127.215 - - [16/Sep/2018 14:10:46] "[37mPOST /upload HTTP/1.1[0m" 200 -
+124.41.243.2 - - [16/Sep/2018 14:11:08] "[37mPOST /upload HTTP/1.1[0m" 200 -
+66.249.81.19 - - [16/Sep/2018 14:12:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+66.249.81.17 - - [16/Sep/2018 14:13:04] "[37mGET / HTTP/1.1[0m" 200 -
+49.126.120.150 - - [16/Sep/2018 14:14:43] "[37mPOST /upload HTTP/1.1[0m" 200 -
+49.126.120.150 - - [16/Sep/2018 14:15:10] "[37mPOST /upload HTTP/1.1[0m" 200 -
+49.126.120.150 - - [16/Sep/2018 14:16:54] "[37mPOST /upload HTTP/1.1[0m" 200 -
+e, u'ne']
+[[[u'', u'']], None, u'ne']
+[[[u'', u'']], None, u'ne']
+[[[u'Coming to the world of distinction 1 There was a promise before the world was created. ', u'\u0916\u0937\u094d\u091f \u0938\u0902\u0938\u093e\u0930\u092e\u093e \u0906\u0909\u0928\u0941 \u092d\u092f\u094b  \u0967 \u0938\u0902\u0938\u093e\u0930 \u0938\u0943\u0937\u094d\u091f\u093f \u0939\u0941\u0928 \u092a\u0939\u093f\u0932\u094d\u092f\u0948 \u0924\u094d\u092f\u0939\u093e\u0901 \u0935\u091a\u0928\xbb \u0925\u093f\u092f\u094b\u0964', None, None, 3], [u'That word was with God, and the Word was God. ', u'\u0924\u094d\u092f\u094b  \u0935\u091a\u0928 \u092a\u0930\u092e\u0947\u0936\u094d\u0935\u0930 \u0938\u0902\u0917 \u0939\u0941\u0928\u0941\u0939\u0941\u0928\u094d\u0925\u094d\u092f\u094b, \u0905\u0928\u093f \u0935\u091a\u0928 \u092a\u0930\u092e\u0947\u0936\u094d\u0935\u0930 \u0939\u0941\u0928\u0941\u0939\u0941\u0928\u094d\u0925\u094d\u092f\u094b\u0964', None, None, 3], [u'His Word was with God at first. ', u'\u0909\u0939\u093e\u0901\u0915\u094b \u0935\u091a\u0928 \u0928\u0948 \u0936\u0941\u0930\u0942\u092e\u093e \u092a\u0930\u092e\u0947\u0936\u094d\u0935\u0930 \u0938\u0902\u0917 \u0939\u0941\u0928\u0941\u0939\u0941\u0928\u094d\u0925\u094d\u092f\u094b\u0964', None, None, 3], [u'He created the world through him. ', u'\u0930\u0930 \u0909\u0939\u093e\u0901\u0915\u0948 \u092e\u093e\u0927\u094d\u092f\u092e\u092c\u093e\u091f \u0935\u093f\u0936\u094d\u0935 \u0938\u0943\u091c\u0928\u093e \u0939\u0941\u0928 \u0938\u0915\u094d\u092f\u094b\u0964', None, None, 3], [u'He could not create anything without it. ', u'\u0909\u0939\u093e\u0901 \u092c\u093f\u0928\u093e \u0915\u0947\u0939\u0940 \u0938\u0943\u091c\u0928\u093e \u0939\u0941\u0928 \u0938\u0915\u0947\u0928\u0964', None, None, 3], [u'"He was his life. ', u'\u201c\u0909\u0939\u093e\u0901 \u0938\u094d\u0935\u092f\u0902 \u091c\u0940\u0935\u0928 \u0939\u0941\u0928\u0941\u0939\u0941\u0928\u094d\u0925\u094d\u092f\u094b\u0964', None, None, 3], [u'That life was a light for people. ', u'\u0924\u094d\u092f\u094b \u091c\u0940\u0935\u0928 \u092e\u093e\u0928\u093f\u0938\u0939\u0930\u0942\u0915\u094b \u0928\u093f\u092e\u094d\u0924\u093f \u091c\u094d\u092f\u094b\u0924\u093f \u0925\u093f\u092f\u094b\u0964', None, None, 3], [u'"That light shines in the dark, and the darkness does not control the light.', u'"\u0924\u094d\u092f\u094b \u091c\u094d\u092f\u094b\u0924\u093f \u0905\u0901\u0927\u094d\u092f\u093e\u0930\u094b\u092e\u093e \u091a\u092e\u094d\u0915\u0928\u094d\u091b\u0964 \u0905\u0928\u093f \u0905\u0928\u094d\u0927\u0915\u093e\u0930\u0932\u0947 \u091c\u094d\u092f\u094b\u0924\u093f\u0932\u093e\u0908 \u091c\u093f\u0924\u094d\u0928 \u0938\u0935\u094d\u0926\u0948\u0928\u0964', None, None, 3]], None, u'ne']
+[[[u'', u'']], None, u'ne']
+[[[u'', u'']], None, u'ne']
+[[[u'5% 0010 000 91001 110 0013 156114000 01 109 [018 71 848 / $ 9 6750 | ', u'\u096b  %  0010 000  91001 110 0013 1\u096b611400\u0966 01 109[018 \u096d\u0967 \u096e\u096a\u096e/ $9\u096f6\u096d\u096b\u0966|', None, None, 3], [u"- 06) \xab0021 2000 101 1422 | '", u"- 0\u096c) \xab0021  2000 \u0967\u0966\u0967 1\u096a22 |'", None, None, 3]], None, u'ne']
+[[[u'. ', u'\u0965', None, None, 3], [u'1110 100 10 1 (01161007101100 7111) () 00.0016.0011.1) 0 \u20ac 9 401000. ', u'1110 100 10 1(01161007101100 7111]  () \u0966\u0966.0\u096616.0011.1)0     \u0966\u20ac\u096f\u096a\u0966\u0967\u0966\u0966\u0966\u0964', None, None, 3], [u'292 .400 9. ', u'\u0966\u096f\u0968 \u0964\u096a\u0966\u0966\u096f\u0964', None, None, 3], [u'0! ', u'\u0966!', None, None, 3], [u"Hello Nepal, I'm Manish and I'm testing some text translations here. Nepal is a beautiful country which has differentiation in caste and race, but there are many things that need to be developed.", u'\u0928\u092e\u0938\u094d\u0915\u093e\u0930 \u0928\u0947\u092a\u093e\u0932, \u092e \u092e\u0928\u0940\u0936 \u0939\u0941\u0901 \u0930 \u092e \u092f\u0939\u093e\u0901 \u0915\u0947\u0939\u093f \u092a\u093e\u0920 \u0905\u0928\u0941\u0935\u093e\u0926\u0915\u094b \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0917\u0930\u094d\u0926\u0948\u09110.44.125.20 - - [16/Sep/2018 15:23:31] "[37mPOST /upload HTTP/1.1[0m" 200 -
+139.162.87.250 - - [16/Sep/2018 23:24:18] "[37mGET / HTTP/1.1[0m" 200 -
+124.41.243.2 - - [17/Sep/2018 07:35:29] "[37mPOST /upload HTTP/1.1[0m" 200 -
+122.228.10.51 - - [17/Sep/2018 07:36:13] "[37mGET / HTTP/1.1[0m" 200 -
+124.41.243.2 - - [17/Sep/2018 11:08:01] "[37mPOST /upload HTTP/1.1[0m" 200 -
+124.41.243.2 - - [17/Sep/2018 11:08:28] "[37mPOST /upload HTTP/1.1[0m" 200 -
+110.44.119.233 - - [17/Sep/2018 16:19:12] "[37mGET / HTTP/1.1[0m" 200 -
+110.44.119.233 - - [17/Sep/2018 16:19:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+110.44.119.233 - - [17/Sep/2018 16:19:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+110.44.119.233 - - [17/Sep/2018 16:19:41] "[37mPOST /upload HTTP/1.1[0m" 200 -
+1b\u0941 \u0928\u0947\u092a\u093e\u0932 \u090f\u0915 \u0938\u0941\u0928\u094d\u0926\u0930 \u0926\u0947\u0936 \u0939\u094b \u091c\u0938\u0915\u094b \u091c\u093e\u0924\u093f \u0930 \u091c\u093e\u0924\u093f\u092e\u093e \u092d\u093f\u0928\u094d\u0928\u0924\u093e \u091b \u0924\u0930 \u0924\u094d\u092f\u0939\u093e\u0901 \u0927\u0947\u0930\u0948 \u091a\u0940\u091c\u0939\u0930\u0942 \u091b\u0928\u094d\u200c \u091c\u0941\u0928 \u0935\u093f\u0915\u093e\u0938\u0915\u094b \u0932\u093e\u0917\u093f \u0917\u0930\u094d\u0928 \u0906\u0935\u0936\u094d\u092f\u0915 \u091b\u0964', None, None, 3]], None, u'ne']
+[[[u'The world has two powers of power, one love and another hunger. ', u'\u0938\u0902\u0938\u093e\u0930\u092e\u093e \u0926\u0941\u0907\u0935\u091f\u093e \u0936\u0915\u094d\u0924\u093f\u0939\u0930\u0941\u0915\u094b \u0938\u093e\u092e\u094d\u0930\u093e\u091c\u094d\u092f \u091b \u090f\u0909\u091f\u093e \u092a\u094d\u0930\u0947\u092e \u0930 \u0905\u0930\u094d\u0915\u094b \u092d\u094b\u0915 \u0964', None, None, 3], [u'If you have a success in life, you should be very careful.', u'\u091c\u0940\u0935\u0928 \u092e\u093e \u0938\u092b\u0932\u0924\u093e \u092a\u093e\u0909\u0928\u0941 \u091b \u092d\u0928\u0947 \u0927\u0947\u0930\u0948 \u092e\u0947\u0939\u0947\u0928\u0924 \u0917\u0930\u094d\u0928\u0941 \u092a\u0930\u094d\u091b \u0964', None, None, 3]], None, u'ne']
+[[[u'Development must be in Nepal', u'\u0935\u093f\u0915\u093e\u0938 \u0928\u0947\u092a\u093e\u0932\u092e\u093e \u0939\u0941\u0928 \u092a\u0930\u094d\u091b', None, None, 3]], None, u'ne']
+[[[u'Nepal is going to be Nepalese Nepal, Nepal will be Nepalese Nepal', u'\u092c\u093f\u0915\u093e\u0938\u094d\u200c \u0928\u0947\u092a\u093e\u0932 \u092e\u093e \u0939\u0941\u0928 \u092a\u091a\u0947 \u0939\u093e\u092e\u0940 \u0928\u0947\u092a\u093e\u0932\u0940 \u0917\u0930\u094d\u0928\u0947\u0939\u094b \u0928\u0947\u092a\u093e\u0932 \u092e\u093e \u0939\u0941\u0928 \u092a\u0930\u094d\u091a \u0939\u093e\u092e\u0940 \u0928\u0947\u092a\u093e\u0932\u0940 \u0932\u0947\u0928\u0948 \u0917\u0930\u094d\u0928\u0947 \u0939\u094b \u0928\u0947\u092a\u093e\u0932 \u092e\u093e \u0939\u0941\u0928 \u092a\u0930\u094d\u091a  \u0939\u093e\u092e\u0940 \u0928\u0947\u092a\u093e\u0932\u0940 \u0932\u0947 \u0928\u0948 \u0917\u0930\u094d\u0928\u0947 \u0939\u094b', None, None, 3]], None, u'ne']
+[[[u"Hi, Hello Nepal, I'm Manish, and I'm testing some text translations here Nepal is a suite (difference between caste and caste) but there are many things that need to be developed.", u'\u0915\u0947\u0939\u093f \u0939\u094d\u200c  \u0928\u092e\u0938\u094d\u0915\u093e\u0930 \u0928\u0947\u092a\u093e\u0932, \u092e \u092e\u0928\u0940\u0936 \u0939\u0941\u0901 \u0930 \u092e \u092f\u0939\u093e\u0901 \u0915\u0947\u0939\u093f \u092a\u093e\u0920 \u0905\u0928\u0941\u0935\u093e\u0926\u0915\u094b \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0917\u0930\u094d\u0926\u0948\u091b\u0941 \u0928\u0947\u092a\u093e\u0932 \u090f\u0915 \u0938\u0941\u0928\u094d\u091f ) \u091c\u093e\u0924\u093f \u0930 \u091c\u093e\u0924\u093f\u092e\u093e \u092d\u093f\u0928\u094d\u0928\u0924\u093e \u091b \u0924\u0930 \u0924\u094d\u092f\u0939\u093e\u0901 \u0927\u0947\u0930\u0948 \u091a\u0940\u091c\u0939\u0930\u0942 \u091b\u0928\u094d\u200c \u091c\u0941\u0928 \u0935\u093f\u0915\u093e\u0938\u0915\u094b \u0932\u093e\u0917\u093f \u0917\u0930\u094d\u0928 \u0906\u0935\u0936\u094d\u092f\u0915 \u091b\u0964', None, None, 3]], None, u'ne']
+[[[u"I'm manish ", u'\u092e \u092e\u0928\u0940\u0936 \u0939\u0941\u0901\u0964', None, None, 3], [u"I'm testing some text translations here. ", u'\u092e \u092f\u0939\u093e\u0901 \u0915\u0947\u0939\u093f \u092a\u093e\u0920 \u0905\u0928\u0941\u0935\u093e\u0926\u0915\u094b \u092a\u0930\u0940\u0915\u094d\u0937\u0923 \u0917\u0930\u094d\u0926\u0948\u091b\u0941 \u0964', None, None, 3], [u'There is a difference between caste and caste in Nepal, but there are many things that need to be developed.', u'\u0928\u0947\u092a\u093e\u0932\u092e\u093e \u091c\u093e\u0924\u093f \u0930 \u091c\u093e\u0924\u093f\u092e\u093e \u092d\u093f\u0928\u094d\u0928\u0924\u093e \u091b \u0924110.44.119.233 - - [17/Sep/2018 16:26:21] "[37mPOST /upload HTTP/1.1[0m" 200 -
