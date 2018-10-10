@@ -1,7 +1,8 @@
 while true
 do
-cd devnagariOcrAndTranslate
-npm run dev
+
+python app.py
+
 sleep 20
 done
 
